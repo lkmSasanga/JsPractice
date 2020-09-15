@@ -11,6 +11,8 @@ function reveal(e, current) {
     current.innerHTML == "Book Now!" ? CTA.innerHTML = "Ooops!" : CTA.innerHTML = "Book Now!";
     ALERT.classList.toggle("hide");
     // 
+    // 
+    // commented
 }
 
 // CTA.onclick = reveal;
